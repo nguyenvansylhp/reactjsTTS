@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // overflow-x: hidden;
+    // height: 100%;
+    font-family: "Barlow", sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.con {
+    color: white;
+    width: 800px;
+    height: 700px;
+    margin-left: 100px;     
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+   
+    &_cot1{
+        width: 100%;
+        height: 5%;
+     
+        margin-bottom: 35px;
+        &_so{
+            width: 20%;
+            height: 100%;
+            background: linear-gradient(145deg ,rgb(119, 156, 182),rgb(202, 46, 119));
+            
+            p{
+               text-align: center;
+               padding-top: 5px;
+            }
+        }
+    }
+    &_cot2{
+        width: 100%;
+        height: 10%;
+        
+               margin-bottom: 35px;
+        display: flex;
+        &_so{
+            width: 20%;
+            height: 100%;
+   background: linear-gradient(145deg ,rgb(119, 156, 182),rgb(202, 46, 119));
+            
+            p{
+               text-align: center;
+               padding-top: 15px;
+            }
+        }
+        &_noidung{
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(145deg ,rgb(171, 204, 228),rgb(73, 177, 238));
+            margin-left: 20px;
+          
+            p{
+               text-align: center;
+               padding-top: 20px;
+            }
+        }
+    }
+    &_cot3{
+        width: 100%;
+        height: 10%;
+        display: flex;
+               margin-bottom: 35px;
+        &_so{
+            width: 20%;
+            height: 100%;
+   background: linear-gradient(145deg ,rgb(119, 156, 182),rgb(202, 46, 119));
+            
+            p{
+               text-align: center;
+               padding-top: 20px;
+            }
+        }
+        &_noidung{  
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(145deg ,rgb(171, 204, 228),rgb(73, 177, 238));
+            margin-left: 20px;
+          
+            p{
+               text-align: center;
+               padding-top: 20px;
+            }
+        }
+    }
+    &_cot4{
+        width: 100%;
+        height: 10%;
+       display: flex;
+               margin-bottom: 35px;
+        &_so{
+            width: 20%;
+            height: 100%;
+   background: linear-gradient(145deg ,rgb(119, 156, 182),rgb(202, 46, 119));
+            
+            p{
+               text-align: center;
+               padding-top: 20px;
+            }
+        }
+        &_noidung{
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(145deg ,rgb(171, 204, 228),rgb(73, 177, 238));
+            margin-left: 20px;
+          
+            p{
+               text-align: center;
+               padding-top: 20px;
+            }
+        }
+    }
+    &_cot5{
+        width: 100%;
+        height: 10%;
+        
+               margin-bottom: 35px;
+        display: flex;
+        &_so{
+            width: 20%;
+            height: 100%;
+   background: linear-gradient(145deg ,rgb(119, 156, 182),rgb(202, 46, 119));
+            
+            p{
+               text-align: center;
+               padding-top: 20px;
+            }
+        }
+        &_noidung{
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(145deg ,rgb(171, 204, 228),rgb(73, 177, 238));
+            margin-left: 20px;
+          
+            p{
+               text-align: center;
+               padding-top: 20px;
+            }
+        }
+        &_noidung2{
+            width: 20%;
+            height: 100%;
+            background: linear-gradient(145deg ,rgb(171, 204, 228),rgb(73, 177, 238));
+            margin-left: 20px;
+          
+            p{
+               text-align: center;
+               padding-top: 20px;
+            }
+        }
+    }
+    &_cot6{
+        width: 100%;
+        height: 25%;
+       
+               margin-bottom: 35px;
+        display: flex;
+        &_so{
+            width: 20%;
+            height: 100%;
+   background: linear-gradient(145deg ,rgb(119, 156, 182),rgb(202, 46, 119));
+            
+            p{
+               text-align: center;
+               padding-top: 35px;
+            }
+        }
+        &_noidung{
+            width: 73.5%;
+            height: 100%;
+            background: linear-gradient(145deg ,rgb(171, 204, 228),rgb(73, 177, 238));
+            margin-left: 20px;
+          
+            p{
+               text-align: center;
+               padding-top: 35px;
+            }
+        }
+    }
+    &_cot7{
+        width: 100%;
+        height: 5%;
+    
+        display: flex;
+        &_so{
+            width: 20%;
+            height: 100%;
+   background: linear-gradient(145deg ,rgb(119, 156, 182),rgb(202, 46, 119));
+            
+            p{
+               text-align: center;
+               padding-top: 5px;
+            }
+        }
+        &_noidung{
+            width: 73.5%;
+            height: 100%;
+            background: linear-gradient(145deg ,rgb(111, 149, 177),rgb(73, 177, 238));
+            margin-left: 20px;
+          
+            p{
+               text-align: center;
+               padding-top: 5px;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+.slick-list img {
+  width: 100% !important;
+  height: 500px !important;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p + p {
+  margin: 0;
+}
+
+.body {
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+  .body {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .body {
+    padding-left: 15px;
+  }
+}
+/*# sourceMappingURL=body.css.map */

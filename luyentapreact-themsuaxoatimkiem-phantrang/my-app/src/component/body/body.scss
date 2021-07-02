@@ -1,0 +1,93 @@
+
+
+.slick-list {
+    img{
+        width: 100% !important;
+        height: 500px !important;
+    }
+}
+.carousel{
+   
+    margin-bottom: 20px;
+   
+}
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // overflow-x: hidden;
+    // height: 100%;
+    font-family: "Barlow", sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p + p{
+    margin:  0;
+}
+.body {
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    @media (max-width: 1200px) {
+        padding-left: 15px;
+    }
+    @media (max-width: 991px) {
+        padding-left: 15px;
+    }
+
+    
+    // .banner{
+    //     width: 80%;
+    //     height: 700px;
+    //     margin: 0px auto;
+        
+    //     &_title{
+    //         text-align: center;
+    //         margin-top: 50px;
+    //         margin-bottom: 50px;
+    //         a{
+    //             color: rgb(202, 59, 59);
+    //             font-size: 30px;
+               
+                
+    //         }
+    //     }
+
+    //     &_anh{
+    //         width: 100%;
+    //         height: 500px;
+    //         img{
+    //             width: 100%;
+    //         }
+    //     }
+    // }
+    // .product{
+    //     width: 100%;
+    //     height: 600px;
+    //     &_title{
+    //         width: 100%;
+    //         text-align: center;
+    //         a{
+    //             color: rgb(202, 59, 59);
+    //             font-size: 30px;
+    //         }
+    //     }
+    //     &_show{                  
+    //         margin-top: 30px;                                           
+    //         width: 20%;
+    //         height: 200px;
+    //         background-color: red;
+    //     }
+    // }
+
+
+
+        
+}

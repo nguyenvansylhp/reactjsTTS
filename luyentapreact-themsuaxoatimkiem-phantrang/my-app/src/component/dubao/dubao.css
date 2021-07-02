@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p + p {
+  margin: 0;
+}
+
+.container {
+  color: white;
+  width: 400px;
+  height: 500px;
+  margin-left: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: linear-gradient(145deg, #92c0e0, #49b1ee);
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding-left: 15px;
+  }
+}
+
+.container .input {
+  height: 40px;
+  margin: 0px auto;
+  width: 50%;
+}
+
+.container .input input {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 10px;
+  color: #d3cece !important;
+  height: 50%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.822);
+}
+
+.container .input input::-webkit-input-placeholder {
+  color: white;
+}
+
+.container .input input:-ms-input-placeholder {
+  color: white;
+}
+
+.container .input input::-ms-input-placeholder {
+  color: white;
+}
+
+.container .input input::placeholder {
+  color: white;
+}
+
+.container .cityname {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container .cityname .thoigian {
+  margin-top: 20px;
+}
+
+.container .weatherstate {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container .weatherstate p {
+  font-size: 10px;
+}
+
+.container .weatherstate h1 {
+  text-align: center;
+}
+
+.container .borderbot {
+  width: 100%;
+  height: 10px;
+  border-bottom: 1px solid white;
+  margin-top: 60px;
+}
+
+.container .thongso {
+  width: 90%;
+  margin: 0px auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+}
+
+.container .thongso .thongso1 {
+  width: 50%;
+  height: 100%;
+}
+
+.container .thongso .thongso1 p {
+  margin-top: 10px;
+}
+
+.container .thongso .thongso2 {
+  width: 50%;
+  height: 100%;
+}
+
+.container .thongso .thongso2 p {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=dubao.css.map */
